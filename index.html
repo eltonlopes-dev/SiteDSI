@@ -3,126 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechForge | Hardware de Alta Performance</title>
+    <title>DSI</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 <body>
 
-   <nav class="navbar">
-        <div class="logo">TECH<span>FORGE</span></div>
-        
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
+    <header>
+  <nav class="navbar">
+    <a href="#home" class="logo-link">
+        <img src="logo-dsi.svg" alt="Logo DSI" class="logo-img">
+    </a>
 
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar GPU, CPU, SSD...">
-        </div>
-        
-        <div class="nav-icons">
-            <a href="#">🛒 Carrinho</a>
-            <a href="#">👤 Login</a>
-        </div>
-    </nav>
-
-    <header class="banner">
-        <div class="banner-content">
-            <h1>DOMINE O JOGO</h1>
-            <p>As melhores placas RTX Série 50 estão aqui.</p>
-            <button class="btn-glow">VER OFERTAS</button>
-        </div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
     </header>
 
-    <main class="container">
-        <h2 class="section-title">Hardware em Destaque</h2>
-        
-        <div class="grid-products">
-            <div class="product-card">
-                <div class="badge">15% OFF</div>
-                <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=400&q=80" alt="GPU">
-                <div class="card-body">
-                    <span class="category">Placa de Vídeo</span>
-                    <h3>RTX 4070 Super OC</h3>
-                    <p class="price">R$ 4.299,00 <span class="old-price">R$ 4.999,00</span></p>
-                    <button class="btn-buy">Adicionar ao Carrinho</button>
+    <main>
+       <section id="home" class="hero-section">
+    <div class="hero-content">
+        <h1>Tecnologia que Impulsiona seu Negócio</h1>
+        <p>Desenvolvimento de sistemas, soluções web e suporte especializado com a agilidade que você precisa.</p>
+        <div class="hero-buttons">
+            <a href="#servicos" class="btn-primary">Nossos Serviços</a>
+            <a href="#contato" class="btn-secondary">Fale Conosco</a>
+        </div>
+    </div>
+</section>
+
+   <section id="sobre" class="section">
+    <div class="content about-container">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>Sobre a D.S.I</h2>
+                <p class="highlight-p">
+                    Desenvolvimento, Soluções e Inovações movidos por colaboração e excelência técnica.
+                </p>
+                <p>
+                    A <strong>D.S.I</strong> nasceu da ideia de que grandes desafios exigem mais do que apenas código; exigem estratégia. Nossa equipe une especialistas em diferentes frentes para garantir que sua empresa nunca pare de evoluir.
+                </p>
+                <p>
+                    Focamos na <strong>eficiência operacional</strong>: cada projeto é discutido e executado a várias mãos, garantindo que o suporte seja imediato e a inovação seja constante. Quando você escolhe a D.S.I, você não contrata um serviço, você ganha um time de tecnologia parceiro.
+                </p>
+            </div>
+            
+            <div class="about-stats">
+                <div class="stat-item">
+                    <i class="fas fa-users-cog"></i>
+                    <span>Trabalho em Equipe</span>
                 </div>
+                <div class="stat-item">
+                    <i class="fas fa-bolt"></i>
+                    <span>Eficiência Ágil</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Suporte Robusto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+       <section id="servicos" class="section hidden">
+    <div class="content">
+        <h2>Serviços</h2>
+        <p>Soluções completas para a sua jornada digital.</p>
+        
+        <div class="cards">
+            <div class="card hidden">
+                <i class="fas fa-code"></i>
+                <h3>Desenvolvimento de Sistemas</h3>
+                <p>Software sob medida e automação de processos para máxima eficiência.</p>
             </div>
 
-          <div class="product-card">
-    <img src="https://images8.kabum.com.br/produtos/fotos/520368/processador-amd-ryzen-5-5600gt-3-6-ghz-4-6ghz-max-turbo-cache-4mb-6-nucleos-12-threads-am4-100-100001488box_1708024586_gg.jpg" alt="CPU Ryzen">
-    
-    <div class="card-body">
-        <span class="category">Processadores</span>
-        <h3>AMD Ryzen 5 5600GT</h3>
-        <p class="price">R$ 849,99</p>
-        
-        <a href="https://www.kabum.com.br/produto/520368/processador-amd-ryzen-5-5600gt-3-6-ghz-4-6ghz-max-turbo-cache-4mb-6-nucleos-12-threads-am4-100-100001488box" 
-           target="_blank" 
-           class="btn-buy" 
-           style="text-decoration: none; display: block; text-align: center;">
-            Comprar no KaBuM
-        </a>
-    </div>
-</div>
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&fit=crop&w=300&q=80" alt="Watercooler">
-                <div class="card-body">
-                    <span class="category">Watercooler & Fans</span>
-                    <h3>Arrefecimento</h3>
-                    <p class="description">Mantenha seu setup sempre frio.</p>
-                    <button class="btn-buy">Ver Opções</button>
-                </div>
+            <div class="card hidden">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>Sites modernos e responsivos que conectam sua marca ao mundo.</p>
             </div>
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=300&q=80" alt="RAM">
-                <div class="card-body">
-                    <span class="category">8GB / 16GB / 32GB</span>
-                    <h3>Memória RAM DDR5</h3>
-                    <p class="description">Velocidade extrema para multitarefa.</p>
-                    <button class="btn-buy">Ver Opções</button>
-                </div>
+
+            <div class="card hidden">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Inovação & Suporte</h3>
+                <p>Consultoria em TI, suporte a sistemas ERP e soluções em cloud computing.</p>
             </div>
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=300&q=80" alt="Monitor">
-                <div class="card-body">
-                    <span class="category">Monitores & Mouse</span>
-                    <h3>Periféricos Gamer</h3>
-                    <p class="description">Teclados mecânicos e monitores 144Hz.</p>
-                    <button class="btn-buy">Ver Opções</button>
-                </div>
         </div>
+    </div>
+</section>
+
+       <section id="contato" class="section">
+    <div class="content">
+        <h2>Contato</h2>
+        <p>Vamos conversar sobre o seu próximo projeto.</p>
+
+        <div class="contato-info">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/SEU-PERFIL" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.instagram.com/SEU-PERFIL" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </div>
+
+            <div class="dados-contato">
+                <p><i class="fas fa-phone"></i> +55 11 99999-9999</p>
+                <p><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</p>
+                <p><i class="fas fa-envelope"></i> exemplo@email.com</p>
+            </div>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer id="contato" class="main-footer">
-        <div class="footer-container">
-            <div class="footer-box">
-                <h3>TECH<span>FORGE</span></h3>
-                <p>A sua forja de hardware de alta performance. Entregamos em todo o Brasil com segurança e velocidade.</p>
-            </div>
-
-            <div class="footer-box">
-                <h4>Atendimento</h4>
-                <p>📧 contato@techforge.com.br</p>
-                <p>📞 (11) 99999-8888</p>
-                <p>📍 Av. Paulista, 1000 - São Paulo, SP</p>
-            </div>
-
-            <div class="footer-box">
-                <h4>Siga-nos</h4>
-                <div class="social-links">
-                    <a href="#" class="social-btn">Instagram</a>
-                    <a href="#" class="social-btn">Facebook</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 TechForge - Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
